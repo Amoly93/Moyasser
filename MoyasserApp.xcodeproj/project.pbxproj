@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C5E93252B5669150051C801 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5C5E93242B5669150051C801 /* FirebaseFirestore */; };
+		5C5E93272B56691B0051C801 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5C5E93262B56691B0051C801 /* FirebaseAuth */; };
+		5C5E93292B5669540051C801 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5C5E93282B5669540051C801 /* FirebaseStorage */; };
+		5C5E932D2B56BBFD0051C801 /* Doctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E932C2B56BBFD0051C801 /* Doctors.swift */; };
+		5C5E932F2B57B0F90051C801 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E932E2B57B0F90051C801 /* BookView.swift */; };
+		5C5E93312B57CA630051C801 /* ConfirmBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E93302B57CA630051C801 /* ConfirmBookView.swift */; };
+		5C5E93332B57D8BB0051C801 /* AuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E93322B57D8BB0051C801 /* AuthenticationModel.swift */; };
+		5C5E93352B57E9C60051C801 /* DiagnosisQuestionPageFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E93342B57E9C60051C801 /* DiagnosisQuestionPageFour.swift */; };
+		5C7417DC2B5551F700D51F03 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7417DB2B5551F700D51F03 /* SignInView.swift */; };
+		5C7417DE2B555DAC00D51F03 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7417DD2B555DAC00D51F03 /* ResultsView.swift */; };
+		5C7417E02B55618200D51F03 /* DiagnosisQuestionPageOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7417DF2B55618200D51F03 /* DiagnosisQuestionPageOne.swift */; };
+		5C7417E22B55678400D51F03 /* DiagnosisQuestionPageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7417E12B55678400D51F03 /* DiagnosisQuestionPageTwo.swift */; };
+		5C7417E42B556E6100D51F03 /* DiagnosisQuestionPageThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7417E32B556E6100D51F03 /* DiagnosisQuestionPageThird.swift */; };
+		5C7418022B56650900D51F03 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7418012B56650900D51F03 /* ViewModel.swift */; };
+		5CDF017C2B550FCC00CFA6CC /* MoyasserAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF017B2B550FCC00CFA6CC /* MoyasserAppApp.swift */; };
+		5CDF017E2B550FCC00CFA6CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF017D2B550FCC00CFA6CC /* ContentView.swift */; };
+		5CDF01802B550FCC00CFA6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDF017F2B550FCC00CFA6CC /* Assets.xcassets */; };
+		5CDF01832B550FCC00CFA6CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDF01822B550FCC00CFA6CC /* Preview Assets.xcassets */; };
+		5CDF018D2B550FE600CFA6CC /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF018A2B550FE600CFA6CC /* ConfirmView.swift */; };
+		5CDF018E2B550FE600CFA6CC /* DoctorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF018B2B550FE600CFA6CC /* DoctorRow.swift */; };
+		5CDF018F2B550FE600CFA6CC /* DoctorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF018C2B550FE600CFA6CC /* DoctorDetails.swift */; };
+		5CDF01932B55100B00CFA6CC /* ExpoArabic-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDF01912B55100B00CFA6CC /* ExpoArabic-Book.ttf */; };
+		5CDF01942B55100B00CFA6CC /* ExpoArabic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CDF01922B55100B00CFA6CC /* ExpoArabic-Bold.otf */; };
+		5CDF01992B5510CF00CFA6CC /* RehabilitationCenterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF01972B5510CF00CFA6CC /* RehabilitationCenterRow.swift */; };
+		5CDF019A2B5510CF00CFA6CC /* RehabilitationCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF01982B5510CF00CFA6CC /* RehabilitationCenterView.swift */; };
+		5CDF019D2B5510EC00CFA6CC /* DiagnosisQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF019C2B5510EC00CFA6CC /* DiagnosisQuestionView.swift */; };
+		5CDF019F2B55111200CFA6CC /* DiagnosisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF019E2B55111200CFA6CC /* DiagnosisView.swift */; };
+		5CDF01A12B55199300CFA6CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF01A02B55199300CFA6CC /* HomeView.swift */; };
+		5CDF01A42B551E8E00CFA6CC /* DoctorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF01A32B551E8E00CFA6CC /* DoctorsModel.swift */; };
+		5CDF01A62B552C1700CFA6CC /* RehabilitationCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF01A52B552C1700CFA6CC /* RehabilitationCenterModel.swift */; };
+		5CDF01A82B5534F300CFA6CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CDF01A72B5534F300CFA6CC /* GoogleService-Info.plist */; };
+		5CDF01AB2B55355E00CFA6CC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5CDF01AA2B55355E00CFA6CC /* FirebaseAnalytics */; };
+		5CDF01AD2B55355E00CFA6CC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 5CDF01AC2B55355E00CFA6CC /* FirebaseAnalyticsOnDeviceConversion */; };
+		5CDF01AF2B55355E00CFA6CC /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5CDF01AE2B55355E00CFA6CC /* FirebaseAnalyticsSwift */; };
+		5CDF01B12B55355E00CFA6CC /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 5CDF01B02B55355E00CFA6CC /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		5CDF01B32B55355E00CFA6CC /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 5CDF01B22B55355E00CFA6CC /* FirebaseAppCheck */; };
+		5CDF01B62B55392900CFA6CC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDF01B52B55392900CFA6CC /* Launch Screen.storyboard */; };
+		5CDF01B82B553A9900CFA6CC /* SignInMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF01B72B553A9900CFA6CC /* SignInMethods.swift */; };
+		5CDF01BA2B553BC900CFA6CC /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF01B92B553BC900CFA6CC /* CreateAccount.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C5E932C2B56BBFD0051C801 /* Doctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctors.swift; sourceTree = "<group>"; };
+		5C5E932E2B57B0F90051C801 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		5C5E93302B57CA630051C801 /* ConfirmBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookView.swift; sourceTree = "<group>"; };
+		5C5E93322B57D8BB0051C801 /* AuthenticationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationModel.swift; sourceTree = "<group>"; };
+		5C5E93342B57E9C60051C801 /* DiagnosisQuestionPageFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisQuestionPageFour.swift; sourceTree = "<group>"; };
+		5C7417DB2B5551F700D51F03 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		5C7417DD2B555DAC00D51F03 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		5C7417DF2B55618200D51F03 /* DiagnosisQuestionPageOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisQuestionPageOne.swift; sourceTree = "<group>"; };
+		5C7417E12B55678400D51F03 /* DiagnosisQuestionPageTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisQuestionPageTwo.swift; sourceTree = "<group>"; };
+		5C7417E32B556E6100D51F03 /* DiagnosisQuestionPageThird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisQuestionPageThird.swift; sourceTree = "<group>"; };
+		5C7418012B56650900D51F03 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5CDF01782B550FCC00CFA6CC /* MoyasserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyasserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDF017B2B550FCC00CFA6CC /* MoyasserAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyasserAppApp.swift; sourceTree = "<group>"; };
+		5CDF017D2B550FCC00CFA6CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CDF017F2B550FCC00CFA6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CDF01822B550FCC00CFA6CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CDF018A2B550FE600CFA6CC /* ConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
+		5CDF018B2B550FE600CFA6CC /* DoctorRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorRow.swift; sourceTree = "<group>"; };
+		5CDF018C2B550FE600CFA6CC /* DoctorDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorDetails.swift; sourceTree = "<group>"; };
+		5CDF01912B55100B00CFA6CC /* ExpoArabic-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ExpoArabic-Book.ttf"; sourceTree = "<group>"; };
+		5CDF01922B55100B00CFA6CC /* ExpoArabic-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ExpoArabic-Bold.otf"; sourceTree = "<group>"; };
+		5CDF01952B55102300CFA6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5CDF01972B5510CF00CFA6CC /* RehabilitationCenterRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RehabilitationCenterRow.swift; sourceTree = "<group>"; };
+		5CDF01982B5510CF00CFA6CC /* RehabilitationCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RehabilitationCenterView.swift; sourceTree = "<group>"; };
+		5CDF019C2B5510EC00CFA6CC /* DiagnosisQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosisQuestionView.swift; sourceTree = "<group>"; };
+		5CDF019E2B55111200CFA6CC /* DiagnosisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosisView.swift; sourceTree = "<group>"; };
+		5CDF01A02B55199300CFA6CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5CDF01A32B551E8E00CFA6CC /* DoctorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsModel.swift; sourceTree = "<group>"; };
+		5CDF01A52B552C1700CFA6CC /* RehabilitationCenterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehabilitationCenterModel.swift; sourceTree = "<group>"; };
+		5CDF01A72B5534F300CFA6CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5CDF01B52B55392900CFA6CC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5CDF01B72B553A9900CFA6CC /* SignInMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInMethods.swift; sourceTree = "<group>"; };
+		5CDF01B92B553BC900CFA6CC /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CDF01752B550FCC00CFA6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDF01AF2B55355E00CFA6CC /* FirebaseAnalyticsSwift in Frameworks */,
+				5CDF01AB2B55355E00CFA6CC /* FirebaseAnalytics in Frameworks */,
+				5CDF01AD2B55355E00CFA6CC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				5CDF01B32B55355E00CFA6CC /* FirebaseAppCheck in Frameworks */,
+				5CDF01B12B55355E00CFA6CC /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				5C5E93292B5669540051C801 /* FirebaseStorage in Frameworks */,
+				5C5E93272B56691B0051C801 /* FirebaseAuth in Frameworks */,
+				5C5E93252B5669150051C801 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C5E93232B5669150051C801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CDF016F2B550FCC00CFA6CC = {
+			isa = PBXGroup;
+			children = (
+				5CDF017A2B550FCC00CFA6CC /* MoyasserApp */,
+				5CDF01792B550FCC00CFA6CC /* Products */,
+				5C5E93232B5669150051C801 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CDF01792B550FCC00CFA6CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF01782B550FCC00CFA6CC /* MoyasserApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CDF017A2B550FCC00CFA6CC /* MoyasserApp */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF01A22B551E5100CFA6CC /* Models */,
+				5C7418012B56650900D51F03 /* ViewModel.swift */,
+				5CDF01952B55102300CFA6CC /* Info.plist */,
+				5CDF01A72B5534F300CFA6CC /* GoogleService-Info.plist */,
+				5CDF017B2B550FCC00CFA6CC /* MoyasserAppApp.swift */,
+				5CDF017D2B550FCC00CFA6CC /* ContentView.swift */,
+				5CDF017F2B550FCC00CFA6CC /* Assets.xcassets */,
+				5CDF01B42B5537AF00CFA6CC /* Authentication  */,
+				5CDF019B2B5510EC00CFA6CC /* Diagnosis */,
+				5CDF01892B550FE600CFA6CC /* Doctors */,
+				5CDF01812B550FCC00CFA6CC /* Preview Content */,
+				5CDF01A02B55199300CFA6CC /* HomeView.swift */,
+				5CDF01B52B55392900CFA6CC /* Launch Screen.storyboard */,
+			);
+			path = MoyasserApp;
+			sourceTree = "<group>";
+		};
+		5CDF01812B550FCC00CFA6CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF01902B55100B00CFA6CC /* Fonts */,
+				5CDF01822B550FCC00CFA6CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CDF01892B550FE600CFA6CC /* Doctors */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF018A2B550FE600CFA6CC /* ConfirmView.swift */,
+				5CDF018B2B550FE600CFA6CC /* DoctorRow.swift */,
+				5CDF018C2B550FE600CFA6CC /* DoctorDetails.swift */,
+				5C5E932C2B56BBFD0051C801 /* Doctors.swift */,
+				5C5E932E2B57B0F90051C801 /* BookView.swift */,
+				5C5E93302B57CA630051C801 /* ConfirmBookView.swift */,
+			);
+			path = Doctors;
+			sourceTree = "<group>";
+		};
+		5CDF01902B55100B00CFA6CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF01912B55100B00CFA6CC /* ExpoArabic-Book.ttf */,
+				5CDF01922B55100B00CFA6CC /* ExpoArabic-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5CDF01962B5510CF00CFA6CC /* Rehabilitation Center */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF01972B5510CF00CFA6CC /* RehabilitationCenterRow.swift */,
+				5CDF01982B5510CF00CFA6CC /* RehabilitationCenterView.swift */,
+			);
+			path = "Rehabilitation Center";
+			sourceTree = "<group>";
+		};
+		5CDF019B2B5510EC00CFA6CC /* Diagnosis */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF019E2B55111200CFA6CC /* DiagnosisView.swift */,
+				5CDF019C2B5510EC00CFA6CC /* DiagnosisQuestionView.swift */,
+				5C7417DF2B55618200D51F03 /* DiagnosisQuestionPageOne.swift */,
+				5C7417E12B55678400D51F03 /* DiagnosisQuestionPageTwo.swift */,
+				5C5E93342B57E9C60051C801 /* DiagnosisQuestionPageFour.swift */,
+				5C7417E32B556E6100D51F03 /* DiagnosisQuestionPageThird.swift */,
+				5C7417DD2B555DAC00D51F03 /* ResultsView.swift */,
+				5CDF01962B5510CF00CFA6CC /* Rehabilitation Center */,
+			);
+			path = Diagnosis;
+			sourceTree = "<group>";
+		};
+		5CDF01A22B551E5100CFA6CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF01A32B551E8E00CFA6CC /* DoctorsModel.swift */,
+				5CDF01A52B552C1700CFA6CC /* RehabilitationCenterModel.swift */,
+				5C5E93322B57D8BB0051C801 /* AuthenticationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CDF01B42B5537AF00CFA6CC /* Authentication  */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF01B72B553A9900CFA6CC /* SignInMethods.swift */,
+				5CDF01B92B553BC900CFA6CC /* CreateAccount.swift */,
+				5C7417DB2B5551F700D51F03 /* SignInView.swift */,
+			);
+			path = "Authentication ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CDF01772B550FCC00CFA6CC /* MoyasserApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDF01862B550FCC00CFA6CC /* Build configuration list for PBXNativeTarget "MoyasserApp" */;
+			buildPhases = (
+				5CDF01742B550FCC00CFA6CC /* Sources */,
+				5CDF01752B550FCC00CFA6CC /* Frameworks */,
+				5CDF01762B550FCC00CFA6CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoyasserApp;
+			packageProductDependencies = (
+				5CDF01AA2B55355E00CFA6CC /* FirebaseAnalytics */,
+				5CDF01AC2B55355E00CFA6CC /* FirebaseAnalyticsOnDeviceConversion */,
+				5CDF01AE2B55355E00CFA6CC /* FirebaseAnalyticsSwift */,
+				5CDF01B02B55355E00CFA6CC /* FirebaseAnalyticsWithoutAdIdSupport */,
+				5CDF01B22B55355E00CFA6CC /* FirebaseAppCheck */,
+				5C5E93242B5669150051C801 /* FirebaseFirestore */,
+				5C5E93262B56691B0051C801 /* FirebaseAuth */,
+				5C5E93282B5669540051C801 /* FirebaseStorage */,
+			);
+			productName = MoyasserApp;
+			productReference = 5CDF01782B550FCC00CFA6CC /* MoyasserApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CDF01702B550FCC00CFA6CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5CDF01772B550FCC00CFA6CC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 5CDF01732B550FCC00CFA6CC /* Build configuration list for PBXProject "MoyasserApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ar;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 5CDF016F2B550FCC00CFA6CC;
+			packageReferences = (
+				5CDF01A92B55355E00CFA6CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 5CDF01792B550FCC00CFA6CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CDF01772B550FCC00CFA6CC /* MoyasserApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CDF01762B550FCC00CFA6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDF01B62B55392900CFA6CC /* Launch Screen.storyboard in Resources */,
+				5CDF01A82B5534F300CFA6CC /* GoogleService-Info.plist in Resources */,
+				5CDF01832B550FCC00CFA6CC /* Preview Assets.xcassets in Resources */,
+				5CDF01932B55100B00CFA6CC /* ExpoArabic-Book.ttf in Resources */,
+				5CDF01942B55100B00CFA6CC /* ExpoArabic-Bold.otf in Resources */,
+				5CDF01802B550FCC00CFA6CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CDF01742B550FCC00CFA6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDF019F2B55111200CFA6CC /* DiagnosisView.swift in Sources */,
+				5CDF017E2B550FCC00CFA6CC /* ContentView.swift in Sources */,
+				5C5E93312B57CA630051C801 /* ConfirmBookView.swift in Sources */,
+				5CDF01A42B551E8E00CFA6CC /* DoctorsModel.swift in Sources */,
+				5CDF018F2B550FE600CFA6CC /* DoctorDetails.swift in Sources */,
+				5CDF01A12B55199300CFA6CC /* HomeView.swift in Sources */,
+				5C7417E22B55678400D51F03 /* DiagnosisQuestionPageTwo.swift in Sources */,
+				5CDF01B82B553A9900CFA6CC /* SignInMethods.swift in Sources */,
+				5CDF019D2B5510EC00CFA6CC /* DiagnosisQuestionView.swift in Sources */,
+				5CDF018E2B550FE600CFA6CC /* DoctorRow.swift in Sources */,
+				5C5E93352B57E9C60051C801 /* DiagnosisQuestionPageFour.swift in Sources */,
+				5C5E932F2B57B0F90051C801 /* BookView.swift in Sources */,
+				5CDF01A62B552C1700CFA6CC /* RehabilitationCenterModel.swift in Sources */,
+				5C7418022B56650900D51F03 /* ViewModel.swift in Sources */,
+				5C7417DE2B555DAC00D51F03 /* ResultsView.swift in Sources */,
+				5C7417DC2B5551F700D51F03 /* SignInView.swift in Sources */,
+				5C5E932D2B56BBFD0051C801 /* Doctors.swift in Sources */,
+				5CDF019A2B5510CF00CFA6CC /* RehabilitationCenterView.swift in Sources */,
+				5CDF017C2B550FCC00CFA6CC /* MoyasserAppApp.swift in Sources */,
+				5CDF01BA2B553BC900CFA6CC /* CreateAccount.swift in Sources */,
+				5CDF018D2B550FE600CFA6CC /* ConfirmView.swift in Sources */,
+				5C7417E42B556E6100D51F03 /* DiagnosisQuestionPageThird.swift in Sources */,
+				5C5E93332B57D8BB0051C801 /* AuthenticationModel.swift in Sources */,
+				5C7417E02B55618200D51F03 /* DiagnosisQuestionPageOne.swift in Sources */,
+				5CDF01992B5510CF00CFA6CC /* RehabilitationCenterRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CDF01842B550FCC00CFA6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CDF01852B550FCC00CFA6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CDF01872B550FCC00CFA6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoyasserApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4798C43896;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoyasserApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moyasser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CDF01882B550FCC00CFA6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoyasserApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4798C43896;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoyasserApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moyasser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CDF01732B550FCC00CFA6CC /* Build configuration list for PBXProject "MoyasserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDF01842B550FCC00CFA6CC /* Debug */,
+				5CDF01852B550FCC00CFA6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDF01862B550FCC00CFA6CC /* Build configuration list for PBXNativeTarget "MoyasserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDF01872B550FCC00CFA6CC /* Debug */,
+				5CDF01882B550FCC00CFA6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CDF01A92B55355E00CFA6CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C5E93242B5669150051C801 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CDF01A92B55355E00CFA6CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5C5E93262B56691B0051C801 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CDF01A92B55355E00CFA6CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5C5E93282B5669540051C801 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CDF01A92B55355E00CFA6CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		5CDF01AA2B55355E00CFA6CC /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CDF01A92B55355E00CFA6CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5CDF01AC2B55355E00CFA6CC /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CDF01A92B55355E00CFA6CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		5CDF01AE2B55355E00CFA6CC /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CDF01A92B55355E00CFA6CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		5CDF01B02B55355E00CFA6CC /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CDF01A92B55355E00CFA6CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		5CDF01B22B55355E00CFA6CC /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CDF01A92B55355E00CFA6CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5CDF01702B550FCC00CFA6CC /* Project object */;
+}
